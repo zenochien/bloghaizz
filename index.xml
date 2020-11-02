@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogzenoc</title>
+    <link>http://zenochien.github.io/bloghaizz/</link>
+    <description>Recent content on blogzenoc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi</language>
+    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://zenochien.github.io/bloghaizz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bắt đầu với ASP.NET Core</title>
+      <link>http://zenochien.github.io/bloghaizz/posts/asp.net-core/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/posts/asp.net-core/</guid>
+      <description>Bắt đầu với ASP.NET Core Vào năm 2015, Microsoft ra mắt nền tảng .NET Core – một phiên bản cross-platform của .NET framework, nay không còn phụ thuộc vào Windows APIs như trước nữa. Cùng với đó họ cũng nâng cấp bộ MVC Framework truyền thống là ASP.NET để chạy được trên nền .NET Core với tên là ASP.NET Core MVC.
+Tới giai đoạn hiện tại các framework này đã qua gần hết 2 thế hệ và chuẩn bị qua thế hệ thứ 3, với nhiều cập nhật và thay đổi đáng kể về hiệu năng.</description>
+    </item>
+    
+    <item>
+      <title>Hiểu về Xamarin</title>
+      <link>http://zenochien.github.io/bloghaizz/posts/hugo-template-primer/</link>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/posts/hugo-template-primer/</guid>
+      <description>“Xamarin là nền tảng của Microsoft dùng để phát triển ứng dụng di động cho Android và iOS với nền tảng Mono .NET và ngôn ngữ C#.” Đó là định nghĩa về Xamarin mà bạn cần phải hiểu trước khi bắt đầu học lập trình trên nền tảng này. Vậy thì hiểu như thế nào mới đúng?
+Đầu tiên có thể bạn biết có 2 hệ điều hành di động thông minh “bự” nhất hiện tại là Android (Google) và iOS (Apple) và để phát triển ứng dụng trên đó Google và Apple đều đưa ra bộ SDK và các công cụ tương ứng để lập trình viên có thể sử dụng, ta gọi đây là phương pháp “chính chủ”, cụ thể cơ bản ta có: Android (Google): Android SDK, Java, Android Studio.</description>
+    </item>
+    
+    <item>
+      <title>Không, xin đừng &#39;nhảy&#39; vào học code! </title>
+      <link>http://zenochien.github.io/bloghaizz/posts/hococde/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/posts/hococde/</guid>
+      <description>Bạn NÊN học code. Nhưng đừng ảo tưởng, và cũng đừng vội vàng. Nước Mỹ dường như đang trải qua một cơn sốt học code. Cựu thị trưởng New York và cũng là huyền thoại kinh doanh Michael Bloomberg cùng các tổ chức phi lợi nhuận như Code.org đều lên tiếng khẳng định code là một kỹ năng cần thiết cho cơ hội việc làm của tương lai. Kênh truyền hình HBO có hẳn một series xây dựng nên hình tượng những anh chàng coder trẻ tuổi làm việc và&amp;hellip; hút cỏ thâu đêm, cùng lúc kiếm hàng triệu USD.</description>
+    </item>
+    
+    <item>
+      <title>8 Sai Lầm Newbie Thường Gặp Trong Lập Trình</title>
+      <link>http://zenochien.github.io/bloghaizz/posts/8-sailam/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/posts/8-sailam/</guid>
+      <description>Bài viết này sẽ chỉ ra cho các bạn những lỗi thường gặp phải ở những người mới bắt đầu chập chững vào nghề để từ đó chúng ta sẽ có thể lưu ý và tránh những lỗi này trong công việc về sau. 1. Không chia nhỏ code. Mình nghĩ đây có lẽ là 1 điều rất hay gặp ở các bạn mới vào nghề. Các bạn thường cứ cố nhồi nhét thật nhiều thật nhiều code vào một file, nào là function, nào là class, nào là module.</description>
+    </item>
+    
+    <item>
+      <title>Git là gì? Các lệnh git cơ bản mà mọi lập trình viên nên biết</title>
+      <link>http://zenochien.github.io/bloghaizz/posts/git/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/posts/git/</guid>
+      <description>Git là gì? Git là một hệ thống quản lý phiên bản phân tán (Distributed Version Control System – DVCS), nó là một trong những hệ thống quản lý phiên bản phân tán phổ biến nhất hiện nay. Git cung cấp cho mỗi lập trình viên kho lưu trữ (repository) riêng chứa toàn bộ lịch sử thay đổi.
+Version Control System – VCS là gì? VCS là viết tắt của Version Control System là hệ thống kiểm soát các phiên bản phân tán mã nguồn mở.</description>
+    </item>
+    
+    <item>
+      <title>Hugo coder wiki</title>
+      <link>http://zenochien.github.io/bloghaizz/posts/hugo-coder-wiki/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/posts/hugo-coder-wiki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>http://zenochien.github.io/bloghaizz/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/posts/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>http://zenochien.github.io/bloghaizz/posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>http://zenochien.github.io/bloghaizz/posts/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/posts/migrate-from-jekyll/</guid>
+      <description>Table of Contents  Move static content to static Create your Hugo configuration file Set your configuration publish folder to site Convert Jekyll templates to Hugo templates Convert Jekyll plugins to Hugo shortcodes  Implementation Usage   Finishing Touches  Fix Content Clean Up   A practical example in a diff  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output.</description>
+    </item>
+    
+    <item>
+      <title>About Deaf Life</title>
+      <link>http://zenochien.github.io/bloghaizz/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/about/</guid>
+      <description>Deaf can not listen. Deaf people cannot hear sounds. How they do ‘hear’ words and talk? Deaf people use American Sign Language (ASL).They talk with their hands. Sometimes two deaf people ‘talk’ to each other. They both use ASL. Sometimes a person who can hear interprets for deaf people. The person listens to someone talking, and then he or she makes hand signs.
+Deaf can not talk. There are two kinds of sign language.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://zenochien.github.io/bloghaizz/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/contact/</guid>
+      <description>Bạn thắc mắc vui lòng nhắn tin qua email. Liên hệ nhắn tin Facebook hoặc số điện thoại 0776850688</description>
+    </item>
+    
+    <item>
+      <title>First snippet</title>
+      <link>http://zenochien.github.io/bloghaizz/snippets/first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/snippets/first/</guid>
+      <description>This content is in snippets/first/index.md
+pwd </description>
+    </item>
+    
+    <item>
+      <title>My CV</title>
+      <link>http://zenochien.github.io/bloghaizz/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/projects/</guid>
+      <description>OBJECTIVE I am deaf, also can&amp;rsquo;t talk - listen. But I have to write something to paper or speak by app &amp;lsquo;Talk to deaf&amp;rsquo;. I want to be a part of your company to contribute to the development of the company in the future. I believe that when I work in such a good environment, I will have more experience and improve my skills to become a back-end developer. I am hard working, eager to learn.</description>
+    </item>
+    
+    <item>
+      <title>Second snippet</title>
+      <link>http://zenochien.github.io/bloghaizz/snippets/second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zenochien.github.io/bloghaizz/snippets/second/</guid>
+      <description>This content is in snippets/second/index.md
+ls -la </description>
+    </item>
+    
+  </channel>
+</rss>
