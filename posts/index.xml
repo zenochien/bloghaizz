@@ -47,6 +47,16 @@ Microsoft phát triển C# dựa trên C++ và Java. C# được miêu tả là 
     </item>
     
     <item>
+      <title>Hardware Intrinsics in .NET Core</title>
+      <link>https://zenochien.github.io/bloghaizz/posts/code_netcore/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/bloghaizz/posts/code_netcore/</guid>
+      <description>Vài năm trước, chúng tôi đã quyết định là hỗ trợ mã SMID trong net. Mình giới thiệu giá trị System.Numerics không gian với Vector2, Vector3, Vector4, Vector&amp;lt;T&amp;gt;, và các loại liên quan.
+SIMD is a technology that employs data parallelization at the CPU level. Multi-threading and SIMD complement each other: multi-threading allows parallelizing work over multiple cores while SIMD allows parallelizing work within a single core. Tạm dịch : SIMD là một công nghệ sử dụng song song dữ liệu ở cấp độ CPU.</description>
+    </item>
+    
+    <item>
       <title>Không, xin đừng &#39;nhảy&#39; vào học code! </title>
       <link>https://zenochien.github.io/bloghaizz/posts/hococde/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
@@ -75,6 +85,26 @@ Version Control System – VCS là gì? VCS là viết tắt của Version Contr
     </item>
     
     <item>
+      <title>Đéo hiểu .Net Core là cái gì mà tui mù công nghệ</title>
+      <link>https://zenochien.github.io/bloghaizz/posts/congnghenetcore/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/bloghaizz/posts/congnghenetcore/</guid>
+      <description>.Net Core is Open Source (Tạm dịch: .Net Core là nguồn mở) This is a natural progression of our open source efforts, which already covers the managed compilers (C#, VB, and F#) as well as ASP.NET:
+ C# &amp;amp; Visual Basic (“Roslyn”) Visual F# Tools ASP.NET 5 Entity Framework  This takes it to the next level by extending it to the .NET runtime and the core framework.
+ .NET Core Framework  He ask &amp;lsquo;What is .</description>
+    </item>
+    
+    <item>
+      <title>Why we should study code C?</title>
+      <link>https://zenochien.github.io/bloghaizz/posts/whywecode/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/bloghaizz/posts/whywecode/</guid>
+      <description>Code is bringing exciting life discoveries. It&amp;rsquo;s like exploring a secret planet.   </description>
+    </item>
+    
+    <item>
       <title>.NET core vs ASP.NET core: Phân biệt .NET Framework, .NET Core và Mono </title>
       <link>https://zenochien.github.io/bloghaizz/posts/netcore/</link>
       <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
@@ -90,6 +120,17 @@ Version Control System – VCS là gì? VCS là viết tắt của Version Contr
       
       <guid>https://zenochien.github.io/bloghaizz/posts/hugo-coder-wiki/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>C# là cái gì? Tui đéo hiểu</title>
+      <link>https://zenochien.github.io/bloghaizz/posts/netlacaigi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/bloghaizz/posts/netlacaigi/</guid>
+      <description>This might be a stupid question, or oversight on my part, but.. If you type &amp;lsquo;method&amp;rsquo; inside an attribute definition, as below:
+Tạm dịch: Câu hỏi ngu ngốc phải đây, điều vô lý khiến tôi bỏ sức. Nếu bạn nhập &amp;lsquo;method&amp;rsquo; bên trong một định nghĩa thuộc tính:
+[method: ] public class MyClass Visual Studio highlights (highlight = điểm nổi bật) the keyword. It doesn&amp;rsquo;t seem to highlight it outside of an attribute (attribute = thuộc tính) as far as I can tell, and hitting (hitting = bấm) F1 in VS (Visual Stiodio) boots you to a 404.</description>
     </item>
     
   </channel>
