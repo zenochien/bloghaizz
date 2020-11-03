@@ -7,27 +7,27 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Phạm Minh Chiến">
-    <meta name="description" content="Bắt đầu với ASP.NET Core">
+    <meta name="description" content="DotNet là gì?">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Bắt đầu với ASP.NET Core"/>
-<meta name="twitter:description" content="Bắt đầu với ASP.NET Core"/>
+<meta name="twitter:title" content="DotNet là gì?"/>
+<meta name="twitter:description" content="DotNet là gì?"/>
 
-    <meta property="og:title" content="Bắt đầu với ASP.NET Core" />
-<meta property="og:description" content="Bắt đầu với ASP.NET Core" />
+    <meta property="og:title" content="DotNet là gì?" />
+<meta property="og:description" content="DotNet là gì?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://zenochien.github.io/bloghaizz/posts/asp.net-core/" />
-<meta property="article:published_time" content="2020-10-20T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-10-20T00:00:00+00:00" />
+<meta property="og:url" content="https://zenochien.github.io/bloghaizz/posts/dotnet/" />
+<meta property="article:published_time" content="2020-11-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-11-01T00:00:00+00:00" />
 
 
     <title>
-  Bắt đầu với ASP.NET Core · blogzenoc
+  DotNet là gì? · blogzenoc
 </title>
 
     
-      <link rel="canonical" href="https://zenochien.github.io/bloghaizz/posts/asp.net-core/">
+      <link rel="canonical" href="https://zenochien.github.io/bloghaizz/posts/dotnet/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -144,19 +144,19 @@
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Bắt đầu với ASP.NET Core</h1>
+          <h1 class="title">DotNet là gì?</h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime='2020-10-20T00:00:00Z'>
-                October, 20200
+              <time datetime='2020-11-01T00:00:00Z'>
+                October, 1010
               </time>
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              5-minute read
+              4-minute read
             </span>
           </div>
           
@@ -167,59 +167,48 @@
 
       <div>
         
-        <h2 id="bắt-đầu-với-aspnet-core">Bắt đầu với ASP.NET Core</h2>
-<p>Vào năm 2015, <em>Microsoft</em> ra mắt nền tảng <em>.NET Core</em> – một phiên bản cross-platform của .NET framework, nay không còn phụ thuộc vào Windows APIs như trước nữa. Cùng với đó họ cũng nâng cấp bộ MVC Framework truyền thống là ASP.NET để chạy được trên nền .NET Core với tên là <strong>ASP.NET Core MVC</strong>.</p>
-<p>Tới giai đoạn hiện tại các framework này đã qua gần hết 2 thế hệ và chuẩn bị qua thế hệ thứ 3, với nhiều cập nhật và thay đổi đáng kể về hiệu năng.</p>
-<p>Như các bạn đã biết cũng có nhiều nền tảng xây dựng MVC Framework khác trong đó Node.js cũng là một nền tảng mạnh mẽ và có nhiều điều tương đồng với ASP.NET Core.</p>
-<p>Thế đâu là ưu điểm, nhược điểm và lý do bạn nên bắt đầu với ASP.NET Core? Có một bài blog ở đây mà bạn có thể đọc nếu còn phân vân về 2 nền tảng này. Còn theo cá nhân mình thì lý do mình sử dụng ASP.NET Core cho các dự án như sau:</p>
-<ul>
-<li>Thứ nhất, do mình quen thuộc với .NET Stack và C#</li>
-<li>Thứ hai, từ khi lên .NET Core thì hiệu năng của ASP.NET cũng không thua kém gì Node.js</li>
-<li>Thứ ba, so với Node.js thì ASP.NET Core có vẻ ít “thư viện” hơn, tuy nhiên hầu hết những gì chúng ta cần đều được xây dựng từ nhà Microsoft ra, không phải phụ thuộc vào kho “thư viện” cộng đồng trên npm.</li>
-</ul>
-<p>Nói đi thì cũng nói lại, ASP.NET Core có một số hạn chế như ít tài liệu, cộng đồng không đông bằng, ít các bộ thư viện kết nối CSDL (như Oracle)…</p>
-<p>Vậy để bắt đầu tìm hiểu cũng như sử dụng ASP.NET Core để xây dựng Web site hoặc APIs bạn cần những điều gì? Sau đây là một số yêu cầu cũng như các bước chuẩn bị để có thể làm việc với nền tảng này:</p>
-<h3 id="yêu-cầu">Yêu cầu</h3>
-<pre><code>Có kinh nghiệm lập trình với ngôn ngữ C#
-Hiểu biết về các hệ quản trị CSDL
-Hiểu biết về công nghệ Web, Server,…
-Có kiến thức về xây dựng frontend web (HTML, CSS, Javascript) hoặc mobile
-</code></pre>
-<h3 id="công-cụ--chuẩn-bị">Công cụ &amp; chuẩn bị</h3>
-<p>Máy tính chạy Windows hoặc MacOS
-Cài đặt .NET Core SDK 2 theo hướng dẫn tại <a href="https://dotnet.microsoft.com">https://dotnet.microsoft.com</a> 
-IDE có thể sử dụng Visual Studio 2019 hoặc Visual Studio Code (khuyên dùng), các 2 đều hỗ trợ miễn phí trên Windows và MacOS</p>
-<h3 id="thực-hành-tạo-project-đầu-tiên">Thực hành, tạo project đầu tiên</h3>
-<ol>
-<li>Mở Command Prompt (Windows) hoặc Terminal (MacOS), trỏ tới thư mục sẽ chứa project của bạn</li>
-<li>Tạo project với tên là MvcFirst bằng lệnh dotnet new mvc -o MvcFirst</li>
-<li>Trỏ và thư mục với lệnh cd MvcFirst</li>
-<li>Chạy thử ứng dụng ASP.NET Core của bạn với lệnh dotnet run</li>
-<li>Kết quả bạn có thể kiểm tra trên trình duyệt bất kỳ với url là: http://localhost:5000 hoặc https://localhost:5001 (bỏ qua lỗi https nếu có)</li>
-<li>Bạn có thể kiểm tra code của project hoặc mở lên với IDE của mình
-<img src="../../images/aspnet/1.png" alt="image"><img src="../../images/aspnet/2.png" alt="image"></li>
-</ol>
-<h2 id="next-steps">Next Steps</h2>
-<p>Mình sẽ chia sẻ thêm các bài viết hoặc video về cách xây dựng ứng dụng ASP.NET Core MVC mà chủ yếu tập trung vào xây dựng APIs cho Single App hoặc Mobile App với các chủ đề như:</p>
-<pre><code>Routing
-Controllers và Actions
-View &amp; Razor
-RESTful API với SQL Server và Entity Framework
-Filters
-ASP.NET Core Identity Framework
-Authentication
-… 
-</code></pre>
-<p>— HẾT —</p>
-<p>.PS: Dành cho bạn nào quan tâm, mình có các khoá học dạng tư vấn và hướng dẫn online như sau</p>
-<ul>
-<li>C# cơ bản – nâng cao: Miễn phí, dành cho các bạn mới bắt đầu học lập trình. Tuỳ vào mục đích, trình độ và thời gian của mỗi cá nhân mà có các hướng dẫn phù hợp. Nếu cần có thể đến thực tập tại công ty mình. (Số lượng có hạn)</li>
-<li>Xamarin Forms: Có phí (khoá đầu tiên nên sẽ là 3.000.000VNĐ/bạn và tối đa chỉ 5 bạn). Hướng dẫn, hỗ trợ, tư vấn, để các bạn có thể xây dựng được một ứng dụng di động cross-platform mobile Android, iOS hoàn chỉnh.</li>
-<li>Như mình chia sẻ thì lập trình di động đã khó và làm cross-platform sẽ khó hơn rất rất nhiều, bạn phải đầu tư từ phần cứng đến phần mềm đến thời gian. Nên các bạn cân nhắc.</li>
-<li>Thời lượng sẽ tuỳ thuộc vào mỗi cá nhân, nhanh nhất có thể là 1 tháng nếu các bạn vững.</li>
-<li>ASP.NET Core API: Có phí (khoá đầu tiên nên sẽ là 1.500.000VNĐ/bạn và tối đa chỉ 5 bạn) Hướng dẫn, hỗ trợ, tư vấn, để các bạn có thể xây dựng được một bộ web API dành cho Single App hoặc Mobile. Tư vấn xây dựng backend cho doanh nghiệp trên Azure. Thời lượng sẽ tuỳ thuộc vào mỗi cá nhân, nhanh nhất có thể là 1 tháng.</li>
-</ul>
-<p>** Lưu ý: Các trao đổi, hướng dẫn chủ yếu là online, qua các tài liệu, bài tập, project, call,… nếu cần thiết sẽ gặp offline (Tp HCM). Các khoá học sẽ bắt đầu ngay sau khi bạn đăng ký. Bạn có thể tham khảo hoặc học thử qua các video của mình: <a href="https://www.youtube.com/channel/UChbpU0RV-r_u5qvKFYucnIg">https://www.youtube.com/channel/UChbpU0RV-r_u5qvKFYucnIg</a>. Riêng lớp C# các bạn phải commit từng nội dung hoặc bài tập rõ ràng nếu không sẽ buộc rời lớp.</p>
+        <h2 id="dotnet-là-gì">DotNet là gì?</h2>
+<p>Dot Net (viết tắt .NET) là một nền tảng (Framework) cho phép lập trình viên sử dụng để phát triển các ứng dụng, website. Nền tảng này được phát triển bởi Microsoft nó chạy trên hệ điều hành Microsoft Window. Chú ý rằng .NET không phải là ngôn ngữ lập trình, mà là nền tảng cho phép các ngôn ngữ lập trình khác nhau như C# sử dụng để tạo nên các website, ứng dụng trên Internet.</p>
+<p>Cấu tạo của .NET là một bộ các dòng code được viết sẵn bởi các lập trình viên Microsoft, các lập trình viên khác sử dụng nền tảng này để phát triển các ứng dụng và dịch vụ web khác một cách nhanh chóng hơn.</p>
+<p>Các ngôn ngữ được sử dụng trên nền tảng .NET gồm có C#, VB.Net, .Net Core, .Net Famework, Xamarin/Mono, v.v&hellip;
+<img src="../../images/DotNet/1.jpg" alt="image"></p>
+<h2 id="lập-trình-viên-net-cần-học-những-gì">Lập trình viên .Net cần học những gì?</h2>
+<p>Với bài viết này, chúng tôi muốn mô tả những kiến thức cần thiết để bạn có thể trở thành một nhà phát triển .NET thành công. Trước khi nói về các kỹ năng bạn có có cho .NET, tôi muốn giải thích một điều bạn cần phải tuân theo và tập trung vào nó nếu muốn trở thành nhà phát triển .NET giỏi.</p>
+<p>Điều đầu tiên là không ngừng học hỏi, đây là nhiệm vụ suốt đời. Bạn chỉ giỏi mọi thứ khi luôn học hỏi, chăm chỉ làm việc và có được các kinh nghiệm cần thiết cho sự nghiệp.</p>
+<p>Điều thứ hai là về logic, phân tích, giải quyết vấn đề và tìm ra giải pháp tối ưu cho các vấn đề. Giải quyết các vấn đề là cách trực tiếp giúp phát triển các kỹ năng logic và phân tích của bạn. Nếu bạn có hai kỹ năng này, bạn gần như đủ điều kiện để trở thành một developer thành công.</p>
+<h4 id="1-những-điều-bạn-phải-làm-để-nâng-cao-kỹ-năng-của-mình-trong-net">1. Những điều bạn phải làm để nâng cao kỹ năng của mình trong .NET</h4>
+<p>– Chọn một trong các kỹ năng cụ thể trong .NET</p>
+<p>– Nghiên cứu và tìm hiểu thông tin về kỹ năng bạn muốn phát triển, có thể tìm kiếm thông tin trên Internet, youtube .</p>
+<p>– Khám phá cách thực hiện kỹ năng đã chọn</p>
+<p>– Tự tạo và thực hiện dự án demo với kỹ năng bạn đã chọn.</p>
+<p>– Tạo một dự án cơ bản và cố gắng thực hiện nó.</p>
+<p>– Nếu thực hiện thành công, hãy thử thực hiện nó trong dự án thực của bạn nếu có thể.</p>
+<p>– Khi bạn cảm thấy thông thạo kỹ năng đã chọn thì chuyển sang kỹ năng tiếp theo.</p>
+<p>Làm điều đó cho đến khi bạn hoàn thành tất cả các kỹ năng cần thiết của .NET. Bây giờ, chúng tôi sẽ nói về các kỹ năng bạn cần có để trở thành nhà phát triển .NET.</p>
+<p>Có nhiều kỹ năng bạn cần phải có để trở thành một nhà phát triển .NET thành công. Khi công nghệ đang phát triển từng ngày, chúng tôi đã chia các kỹ năng thành hai phần.</p>
+<h4 id="2-kỹ-năng-cần-thiết">2. Kỹ năng cần thiết</h4>
+<p>– .NET Basics</p>
+<p>– C#</p>
+<p>– .NET</p>
+<p>– .NET MVC</p>
+<p>– SQL Server</p>
+<p>– WCF</p>
+<p>– Visual Studio</p>
+<p>– JavaScript</p>
+<p>– jQuery</p>
+<p>– CSS</p>
+<p>Cách trở thành lập trình viên .NET? Lương .NET bao nhiêu?</p>
+<h4 id="3-các-kiến-thức-liên-quan-hỗ-trợ-tốt-cho-kỹ-năng">3. Các kiến thức liên quan hỗ trợ tốt cho kỹ năng</h4>
+<p>– Web API</p>
+<p>– Entity Framework</p>
+<p>– LINQ</p>
+<p>– AngularJS</p>
+<p>– NodeJS</p>
+<p>Bây giờ, chỉ cần bắt đầu nghiên cứu và thực hành các kỹ năng đã chọn và đảm bảo thông thạo 1 kỹ năng nào đó cụ thể trước khi chuyển sang kỹ năng khác.
+III. Mức lương lập trình viên .NET</p>
+<p>Đối với lập trình viên mới ra trường có thể nhận được mức lương từ 10 – 15 triệu</p>
+<p>Những lập trình viên có kinh nghiệm từ 1 – 3 năm sẽ có mức lương cao hơn từ 18 đến 20 triệu tùy vào từng vị trí.</p>
+<p>Khi đã có nhiều hơn 5 năm kinh nghiệm tùy theo lĩnh vực, vị trí mà mức lương sẽ khác nhau có thể đạt được con số hơn 35 triệu mỗi tháng.</p>
 
       </div>
 
