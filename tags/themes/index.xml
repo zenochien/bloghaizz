@@ -6,11 +6,11 @@
     <description>Recent content in themes on blogzenoc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
-    <lastBuildDate>Mon, 12 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zenochien.github.io/bloghaizz/tags/themes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zenochien.github.io/bloghaizz/tags/themes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hiểu về Xamarin</title>
       <link>https://zenochien.github.io/bloghaizz/posts/hugo-template-primer/</link>
-      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zenochien.github.io/bloghaizz/posts/hugo-template-primer/</guid>
       <description>“Xamarin là nền tảng của Microsoft dùng để phát triển ứng dụng di động cho Android và iOS với nền tảng Mono .NET và ngôn ngữ C#.” Đó là định nghĩa về Xamarin mà bạn cần phải hiểu trước khi bắt đầu học lập trình trên nền tảng này. Vậy thì hiểu như thế nào mới đúng?
@@ -20,7 +20,7 @@
     <item>
       <title>Hugo coder wiki</title>
       <link>https://zenochien.github.io/bloghaizz/posts/hugo-coder-wiki/</link>
-      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://zenochien.github.io/bloghaizz/posts/hugo-coder-wiki/</guid>
       <description></description>
